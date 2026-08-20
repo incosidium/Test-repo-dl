@@ -1,42 +1,13 @@
 [
   {
-    "id": "bloodbath-gdps",
+    "id": "sakoopen-night",
     "rank": 1,
-    "name": "Bloodbath GDPS Edition",
-    "publisher": "User1",
-    "verifier": "PlayerA",
+    "name": "Sakupen Knight",
+    "publisher": "Fresh",
+    "verifier": "Fresh",
     "thumbnail": "https://files.catbox.moe/example.png",
-    "verificationUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "verificationUrl": "https://www.youtube.com/watch?v=qasVGCDHmfQ",
     "description": "The current hardest demon on the server.",
-    "victors": [
-      { "name": "PlayerA", "proof": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" },
-      { "name": "PlayerB", "proof": "https://www.tiktok.com/@user/video/1234567890" }
-    ]
-  },
-  {
-    "id": "cataclysm-reborn",
-    "rank": 2,
-    "name": "Cataclysm Reborn",
-    "publisher": "User2",
-    "verifier": "PlayerC",
-    "thumbnail": "https://files.catbox.moe/example2.png",
-    "verificationUrl": "https://files.catbox.moe/examplevideo.mp4",
-    "description": "Former top 1 demon.",
-    "victors": [
-      { "name": "PlayerA", "proof": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" }
-    ]
-  },
-  {
-    "id": "old-hard-level",
-    "rank": 151,
-    "name": "Old Hard Level",
-    "publisher": "User3",
-    "verifier": "PlayerB",
-    "thumbnail": "https://files.catbox.moe/example3.png",
-    "verificationUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "description": "Classic level moved to the Legacy List.",
-    "victors": [
-      { "name": "PlayerB", "proof": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" }
-    ]
+    "victors": []
   }
 ]
