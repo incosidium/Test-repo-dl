@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #121212;
+    background: #0E2A1F; /* Siberian Green background */
     color: #fff;
     margin: 0;
     padding: 20px;
@@ -14,13 +14,14 @@ nav {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    background: #1e1e1e;
+    background: #174030; /* Lighter Siberian Green for the top nav bar */
     padding: 12px;
     border-radius: 8px;
+    border: 1px solid #235B45;
 }
 
 nav button, nav a, .back-btn, .action-btn {
-    background: #333;
+    background: #235B45;
     color: white;
     border: none;
     padding: 10px 16px;
@@ -32,7 +33,7 @@ nav button, nav a, .back-btn, .action-btn {
 }
 
 nav button:hover, nav a:hover, .back-btn:hover, .action-btn:hover {
-    background: #555;
+    background: #2E7358;
 }
 
 .discord-btn {
@@ -53,15 +54,16 @@ nav button:hover, nav a:hover, .back-btn:hover, .action-btn:hover {
 }
 
 .card {
-    background: #1e1e1e;
+    background: #15392B; /* Dark green cards matching the theme */
     padding: 16px;
     margin-bottom: 12px;
     border-radius: 8px;
     transition: transform 0.1s, background 0.2s;
+    border: 1px solid #1F4F3C;
 }
 
 .card.clickable:hover {
-    background: #282828;
+    background: #1C4837;
     transform: translateY(-2px);
 }
 
@@ -101,5 +103,5 @@ ul {
 }
 
 a {
-    color: #4da6ff;
+    color: #62d8a5; /* Bright mint green for links */
 }
