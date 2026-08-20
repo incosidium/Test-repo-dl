@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GDPS Demon List</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -22,6 +23,12 @@
             <div id="list-container"></div>
         </section>
 
+        <!-- Detailed Single Level View Section -->
+        <section id="level-details" class="tab-content">
+            <button class="back-btn" onclick="showSection('list')">← Back to List</button>
+            <div id="level-info-container"></div>
+        </section>
+
         <!-- Leaderboard Section -->
         <section id="leaderboard" class="tab-content">
             <h2>Player Leaderboard</h2>
@@ -31,7 +38,7 @@
         <!-- Roulette Section -->
         <section id="roulette" class="tab-content">
             <h2>Demon Roulette</h2>
-            <button onclick="spinRoulette()">Spin Random Demon</button>
+            <button class="action-btn" onclick="spinRoulette()">Spin Random Demon</button>
             <div id="roulette-result"></div>
         </section>
 
