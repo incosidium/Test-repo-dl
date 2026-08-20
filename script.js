@@ -1,5 +1,5 @@
 // Global Configuration
-const MAX_MAIN_LIST = 150;
+const MAX_MAIN_LIST = 32;
 const K = Math.log(1000) / (MAX_MAIN_LIST - 1);
 
 let demons = []; // Populated from demons.json
