@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GDPS Demon List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <button onclick="showSection('list')">List</button>
+        <button onclick="showSection('leaderboard')">Leaderboard</button>
+        <button onclick="showSection('roulette')">Roulette</button>
+        <button onclick="showSection('upcoming')">Unverified/Upcoming</button>
+        <button onclick="showSection('submit')">Submit Record</button>
+        <a href="https://discord.gg/YOUR_INVITE_LINK" target="_blank" class="discord-btn">Discord</a>
+    </nav>
+
+    <main>
+        <!-- Demon List Section -->
+        <section id="list" class="tab-content active">
+            <h2>Demon List</h2>
+            <div id="list-container"></div>
+        </section>
+
+        <!-- Leaderboard Section -->
+        <section id="leaderboard" class="tab-content">
+            <h2>Player Leaderboard</h2>
+            <div id="leaderboard-container"></div>
+        </section>
+
+        <!-- Roulette Section -->
+        <section id="roulette" class="tab-content">
+            <h2>Demon Roulette</h2>
+            <button onclick="spinRoulette()">Spin Random Demon</button>
+            <div id="roulette-result"></div>
+        </section>
+
+        <!-- Unverified/Upcoming Section -->
+        <section id="upcoming" class="tab-content">
+            <h2>Unverified & Upcoming Demons</h2>
+            <div id="upcoming-container"></div>
+        </section>
+
+        <!-- Submit Record Section -->
+        <section id="submit" class="tab-content">
+            <h2>Submit a Record</h2>
+            <iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" width="100%" height="600" frameborder="0">Loading…</iframe>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
